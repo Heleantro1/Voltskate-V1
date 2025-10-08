@@ -56,8 +56,16 @@ a{
 .header-menu a:hover:after{
   width: 100%;
 }
+.header h1{
+  color: rgb(245, 245, 245);  
+  font-size:45px;
+  font-family: 'Playfair Display';
+}
 .termos-bg{
-  background: #111111;
+  /* background: #111111; */
+  background-image: url('./img-teste/alex-perez-ioJBsYQ-pPM-unsplash.jpg');
+  background-size: cover;
+  background-position: center center;
   color: white;
   height: 210px;
 }
@@ -106,6 +114,11 @@ span{
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
+}
+.rodape-main h1{
+  color: rgb(245, 245, 245);  
+  font-size:45px;
+  font-family: 'Playfair Display';
 }
 .footer-contato{
   display: grid;

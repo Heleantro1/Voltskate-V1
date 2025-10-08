@@ -510,7 +510,7 @@ padding-left: 50px;
 }
 .gparte1 h4{
   margin: 0px;
-  color: greenyellow;
+  color: goldenrod;
   font-size: 45px;
 }
 
@@ -532,7 +532,7 @@ bottom: 40%;
 }
 .gparte1 a{
   display: inline-block;
- background:greenyellow;
+ background:goldenrod;
  color:black;
  font-weight: 600;
  border-radius: 5px;
@@ -607,6 +607,12 @@ bottom: 40%;
   display: grid;
   height: 150px;
   color: lightgray;
+}
+.footer-info2 a{
+  color: white;
+}
+.footer-info2 a:hover{
+  text-decoration: underline;
 }
 .rodape-main h1{
   color: rgb(245, 245, 245);  

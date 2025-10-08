@@ -1,0 +1,178 @@
+
+body{
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: black;
+  
+}
+h1,p{
+  margin: 0px;
+}
+ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.header-bg{
+  background: black;
+}
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-menu{
+  display: flex;
+  gap: 40px;
+  
+  font-weight: 400;
+}
+.header-menu a{
+  color: white;
+  display: inline-block;
+  padding: 16px 0px;
+  font-size: 18px;
+  position: relative;
+}
+.header-menu a:after{
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  background: greenyellow;
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute;
+}
+.header-menu a:hover:after{
+  width: 100%;
+}
+.header h1{
+  color: white;
+  font-family: 'Playfair Display';
+  font-size: 40px;
+}
+.main-bg{
+  background: black;
+
+  color: white;
+}
+.main-bloco{
+  width: 1000px;
+  height: 600px;
+  margin: auto;
+  background: #111;
+}
+.main-titulo{
+  background: black;
+  padding-bottom: 50px;
+}
+.main-titulo h1{
+  padding-top: 40px;
+  font-size: 55px;
+  margin: 0px;
+}
+.main-titulo h3{
+  font-size: 14px;
+  font-weight: 100;
+  color: lightgray;
+  padding-left: 20px;
+}
+.main-titulo span{
+  color: goldenrod;
+}
+.main-titulo h3{
+  padding-top: 10px;
+  margin: 0px;
+}
+.main-info{
+  padding-top: 40px;
+  padding-left: 40px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.info-1{
+  display: grid;
+  align-self: center;
+  grid-template-rows: .5fr 1fr 1fr .5fr .5fr;
+  gap: 15px;
+
+}
+.info-1 p{
+  font-size: 14px;
+  font-weight: 100;
+  color: lightgray;
+  justify-content: center;
+}
+.info-icones{
+  display: flex;
+  gap: 20px;
+}
+.info-2{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+.input-info{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  
+}
+#label0 label{
+  align-self: center;
+  text-align: end;
+ 
+}
+#label0 input{
+  padding: 0px;
+  margin-right: 20px;
+}
+#label1 label{
+  align-self: center;
+  text-align: end;
+ 
+}
+#label1 input{
+  padding: 0px;
+  margin-right: 20px;
+}
+#label2 label{
+  align-self: center;
+  text-align: end;
+}
+#label2 input{
+  padding: 0px;
+  margin-right: 20px;
+}
+#label3 label{
+  align-self: center;
+  text-align: end;
+}
+#label3 textarea{
+  padding: 0px;
+  margin-right: 20px;
+}
+.link-input{
+  align-self: end;
+  text-align: end;
+  margin-right: 30px;
+}
+.link-input1{
+  padding: 10px 15px;
+  background: goldenrod;
+  border-radius: 5px;
+  color: black;
+  font-weight: 500;
+  margin-right: 30px;
+}

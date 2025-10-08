@@ -1,0 +1,344 @@
+
+body{
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+
+}
+h1,p{
+  margin: 0px;
+}
+ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.header-bg{
+  background: black;
+}
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-menu{
+  display: flex;
+  gap: 40px;
+  
+  font-weight: 400;
+}
+.header-menu a{
+  color: white;
+  display: inline-block;
+  padding: 16px 0px;
+  font-size: 18px;
+  position: relative;
+}
+.header-menu a:after{
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  background: greenyellow;
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute;
+}
+.header-menu a:hover:after{
+  width: 100%;
+}
+.header h1{
+  color: white;
+  font-family: 'Playfair Display';
+  font-size: 40px;
+}
+.vantagens-container{
+ display: grid;
+ grid-template-rows: .5fr 1fr;
+ background-image: url('./img-teste/adrien-olichon-_GH9LwhlSO4-unsplash.jpg');
+ background-size: cover;
+ background-position: center center;
+}
+
+.vantagens {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.vantagens-bg{
+  height: 500px;
+  background-image: url('./img-teste/adrien-olichon-_GH9LwhlSO4-unsplash.jpg');
+ background-size: cover;
+ background-position: center center;
+}
+.vantagens-container h2 {
+  margin-bottom: 60px;
+  width: 1250px;
+  margin: auto;
+  font-size: 50px;
+  color: white;
+  
+}
+.vantagens-container h3{
+  color: white;
+}
+.vantagens-container p{
+  color: white;
+}
+
+.container-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px 30px;
+  width: 1250px;
+  height: 350px;
+ margin: auto;
+}
+.container-grid h3{
+  position: relative;
+}
+ #h3-1::before{
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-image: url('./img/icones/eletrica.svg');
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -10%;
+  top: -30%;
+}
+#h3-2::before{
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-image: url('./img/icones/carbono.svg');
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -10%;
+  top: -30%;
+}
+#h3-3::before{
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-image: url('./img/icones/sustentavel.svg');
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -10%;
+  top: -30%;
+}
+#h3-4::before{
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-image: url('./img/icones/rastreador.svg');
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -10%;
+  top: -30%;
+}
+#h3-5::before{
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-image: url('./img/icones/seguro.svg');
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -10%;
+  top: -30%;
+}
+#h3-6::before{
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-image: url('./img/icones/velocidade.svg');
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -10%;
+  top: -30%;
+}
+.vantagens img {
+  margin-bottom: 8px;
+}
+.perguntas {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.perguntas h2 {
+  margin-bottom: 60px;
+}
+
+.perguntas dl > div {
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.perguntas dl > div:nth-child(odd) {
+  background-color: var(--cor-1);
+}
+
+.perguntas dt {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.perguntas dt::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  background-color: var(--cor-p1);
+}
+
+.perguntas dt::after {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 6px;
+  background: url("../../img/icones/seta-abrir.svg");
+  transition: 0.3s;
+}
+
+.perguntas dt:hover::after {
+  transform: rotate(180deg);
+}
+
+.perguntas dd {
+  padding-left: 20px;
+  padding-top: 16px;
+  max-width: 80ch;
+}
+#PC{
+  width: 1250px;
+  margin: auto;
+}
+#H2C{
+  font-size: 55px;
+}
+#divc{
+  background: rgba(211, 211, 211, 0.445);
+  position: relative;
+}
+#divc dt{
+  font-weight: 700;
+}
+#divc:before{
+  content: "";
+  display: block;
+  width: 10px;
+  height: 5px;
+  background: gold;
+  position: absolute;
+  left: 1%;
+  top: 22%;
+}
+#divc2{
+  position: relative;
+}
+#divc2 dt{
+  font-weight: 700;
+}
+#divc2:before{
+  content: "";
+  display: block;
+  width: 10px;
+  height: 5px;
+  background: gold;
+  position: absolute;
+  left: 1%;
+  top: 22%;
+}
+.footer-bg{
+  background-image: url('./img-teste/adrien-olichon-_GH9LwhlSO4-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  height: 350px;
+  padding: 30px;
+}
+.rodape-main{
+  display: grid;
+  padding: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 1250px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+.footer-contato{
+  display: grid;
+}
+.footer-contato h5{
+  margin: 0px;
+  padding-top: 10px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 100;
+}
+.footer-p p{
+  color: lightgray;
+  padding-bottom: 5px;
+  
+}
+.footer-p{
+  position: relative;
+}
+.footer-p:after{
+  content: "";
+  display: block;
+  height: 1px;
+  width: 220px;
+  background: rgba(211, 211, 211, 0.24);
+  position: absolute;
+  top: 65%;
+  
+}
+.footer-redes{
+  display: flex;
+  gap: 20px;
+  padding-left: 20px;
+}
+.footer-info{
+  display: grid;
+  grid-template-rows: .3fr 1fr;
+}
+.footer-info h5{
+  margin: 0px;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 100;
+}
+.footer-info2{
+  display: grid;
+  height: 150px;
+  color: lightgray;
+}
+.rodape-main h1{
+  color: rgb(245, 245, 245);  
+  font-size:45px;
+  font-family: 'Playfair Display';
+}
+
+
+
