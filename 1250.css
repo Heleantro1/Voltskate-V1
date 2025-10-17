@@ -619,3 +619,179 @@ bottom: 40%;
   font-size:45px;
   font-family: 'Playfair Display';
 }
+@media (max-width: 1300px){
+ 
+  html,body{
+    overflow-x: hidden;
+  }
+body{
+  height: 100%;
+}
+.header-bg{
+  width: 100%;
+}
+.header{
+  max-width: 860px;
+  padding: 0px;
+  padding-bottom: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  justify-items: center;
+}
+.introducao-bg{
+  width: 100%;
+}
+.intro{
+padding-top: 30px;
+margin: 0px;
+margin: auto;
+max-width: 860px;
+display: flex;
+gap: 10px;
+}
+.intro1{
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+}
+.intro1 h1{
+ font-size: 40px;
+ margin: 0px;
+}
+.intro1 span{
+  display: none;
+}
+.intro1 p{
+ display: none;
+}
+.intro1 a{
+margin: auto;
+} 
+.intro-img{
+  max-height: 95%;
+  width: 100%;
+  
+}
+.section-bg{
+  padding-top: 30px;
+  max-width:860px;
+}
+.section-bg h1{
+  padding: 0px;
+  font-size: 55px;
+}
+.bike1{
+  background-position: center center;
+}
+.bike1:hover{
+ background:url('./img-teste/scarlet2.png');
+ background-size: cover;
+}
+.bike2{
+  background-position: center center;
+}
+.bike2:hover{
+  background: url('./img-teste/Space-marine.png');
+  background-size: cover;
+  background-position: center left;
+  
+}
+.bike3{
+  background-position: center center;
+}
+.bike3:hover{
+  background: url('./img-teste/alienet.png');
+  background-size: cover;
+}
+.article-main{
+  max-width: 1300px;
+}
+.article-bg{
+  max-width: 860px;
+}
+.article-conteudo{
+  height: 500px;
+  align-self: center;
+  grid-template-rows: .5fr ;
+}
+.article-conteudo p{
+  align-self: center;
+  color: white;
+  text-decoration: none;
+}
+.article-conteudo h2{
+  display: none;
+}
+.article-p1{
+  display: none;
+}
+.article-comp p{
+  font-size: 14px;
+  color: white;
+
+}
+.article-comp2 p{
+  font-size: 14px;
+  color: white;
+}
+.parcerias-bg{
+  margin: 0px;
+  width: 100%;
+  padding-top: 60px;
+  padding-left: 20px;
+}
+.parcerias-bg h2{
+  font-size: 55px;
+  align-self: center;
+  text-align: center;
+}
+.parcerias-grid{
+  max-width: 860px;
+  margin: auto;
+  gap: 25px;
+}
+.parcerias-grid:after{
+  content: "";
+  display: block;
+  width: 900px;
+  height: 1px;
+  background-color: rgba(211, 211, 211, 0.493);
+  position: absolute;
+}
+.depoimento{
+ width: 100%;
+ 
+}
+#p1 {
+  display: none;
+}
+.seguro-bg{
+  width: 100%;
+}
+.seguro-main{
+  max-width: 860px;
+}
+.seguro-titulo{
+  padding: 0px;
+  padding-top: 20px;
+}
+.seguro-titulo h3 span{
+  color: goldenrod;
+}
+.sparte-p p:before{
+  left: -10%; 
+}
+.gparte-p p:before{
+left: -10%;
+}
+.footer-bg{
+  padding: 0px;
+}
+.rodape-main{
+  padding: 0px;
+  padding-top: 20px;
+  padding-left: 20px;
+  max-width: 860px;
+}
+}
