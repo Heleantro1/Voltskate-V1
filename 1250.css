@@ -619,8 +619,8 @@ bottom: 40%;
   font-size:45px;
   font-family: 'Playfair Display';
 }
-@media (max-width: 1300px){
- 
+
+@media screen and (max-width: 1300px){
   html,body{
     overflow-x: hidden;
   }
@@ -793,5 +793,66 @@ left: -10%;
   padding-top: 20px;
   padding-left: 20px;
   max-width: 860px;
+}
+@media screen and (max-width: 920px){
+  .introducao-bg{
+     box-shadow: inset -380px 0px white;
+     height: 500px;
+     width: 910px;
+     margin: auto;
+  }
+ .intro{
+ margin-top: 40px;
+  width: 600px;
+  height: 600px;
+  flex-wrap: no-wrap;
+  margin-left: 0px;
+  padding-left: 50px;
+ }
+ .intro1{
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 150px;
+ }
+ .intro1 h1{
+  order:0;
+  font-size: 30px;
+  
+ }
+ .intro-img{
+  max-height: 400px;
+  flex-basis: 700px;
+ }
+ .section-bg{
+  margin-top: 50px;
+  width: 600px;
+ }
+.section-bg h1{
+  font-size: 43px;
+}
+.bike-detalhe p{
+  font-size: 16px;
+  font-weight: 100;
+}
+.article-bg{
+  width: 600px;
+}
+.article-conteudo a{
+  font-size: 20px;
+  align-self: end;
+ padding-bottom: 20px;
+ color: white;
+}
+.article-titulo{
+  display: none;
+}
+.article-componentes{
+  padding: 0px;
+  padding-top: 20px;
+  align-self: start;
+}
+.article-conteudo p{
+  font-size: 15px;
+}
 }
 }
